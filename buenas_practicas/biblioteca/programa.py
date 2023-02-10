@@ -2,10 +2,6 @@ import os
 import time
 import funciones as biblioteca
 
-import os
-import time
-import funciones as biblioteca
-
 if __name__ == "__main__":
     while True:
         os.system('cls') # Limpiar pantalla

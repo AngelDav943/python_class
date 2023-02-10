@@ -24,3 +24,6 @@ def dist(x1:float, y1:float, x2:float, y2:float) -> float:
     y:float = math.pow(y2 - y1, 2)
     dist = math.sqrt( x + y )
     return dist
+
+if __name__ == "__main__":
+    print("Funciones!!")

@@ -32,8 +32,7 @@ def menu(pagina):
 while True:
 	os.system('cls') # Limpiar pantalla
 	menu(paginaActiva)
-	print()
-	opcion = input('=> ')
+	opcion = input('\n=> ')
 
 	match str(opcion):
 		case '1': # Ir a la pagina anterior

@@ -29,7 +29,7 @@ def actualizar(nombre:str, nuevo_libro:str) -> str:
         --return--
         - libro (string): Devuelve el libro si el usuario existe.
     """
-    if str(nombre).lower() in personas.keys():
+    if str(nombre).lower() in personas: # Verifica si usuario existe
         personas[str(nombre).lower()] = nuevo_libro
         libro:str = nuevo_libro
         return libro
@@ -46,7 +46,7 @@ def eliminar(nombre:str) -> str:
         --return--
         - nombre (string): Si la persona existe, devuelve el nombre del usuario que eliminastes.
     """
-    if str(nombre).lower() in personas.keys():
+    if str(nombre).lower() in personas: # Verifica si usuario existe
         personas.pop(nombre)
         return nombre
 
@@ -62,7 +62,7 @@ def buscar(nombre:str) -> str:
         --return--
         - libro (string): El libro que a prestado el usuario.
     """
-    if str(nombre).lower() in personas.keys():
+    if str(nombre).lower() in personas: # Verifica si usuario existe
         libro:str = personas[str(nombre).lower()]
         return libro
 

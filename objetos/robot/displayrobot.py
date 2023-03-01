@@ -11,7 +11,7 @@ def display(robot, x=0, y=0):
         text = ""
         for dx in range(lim*2):
             if x == int(dx-(lim)) and y == -(dy-(lim/2)):
-                text = text + "DVD"
+                text = text + "O"
             elif int(dx-(lim)) == 0:
                 text = text + "|"
             elif int(dy-(lim/2)) == 0:
@@ -32,7 +32,7 @@ def display(robot, x=0, y=0):
         
 if __name__ == "__main__":
     robo = Robot("Alberto")
-    display(robo.x, robo.y)
+    display(robo, robo.x, robo.y)
 
     def mov(opcion):
         match str(opcion).lower():

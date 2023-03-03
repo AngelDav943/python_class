@@ -11,8 +11,8 @@ class Robot1(Robot):
 
 class Robot2(Robot):
     def saltar(self):
-        self.x = self.x + random.randrange(-2,2)
-        self.y = self.y + random.randrange(-2,2)
+        self.x = self.x + random.randrange(-3,3)
+        self.y = self.y + random.randrange(-3,3)
         
 ne = Robot2("ang")
 print(ne.posicion())

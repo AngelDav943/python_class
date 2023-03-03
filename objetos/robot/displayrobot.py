@@ -25,11 +25,9 @@ def display(robot, x=0, y=0):
         hit["x"] = True
     if abs(robot.y) >= (lim/2)-1:
         hit["y"] = True
-        
+
     return hit
-    
-    
-        
+
 if __name__ == "__main__":
     robo = Robot("Alberto")
     display(robo, robo.x, robo.y)

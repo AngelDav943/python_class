@@ -24,8 +24,8 @@ class gato(ser):
 ser1 = ser("shokertec")
 ser1.movimiento()
 
-gat = persona("roky")
-gat.movimiento()
+gat = gato("roky")
+gat.sonido()
 
 david = persona("david")
 david.movimiento()

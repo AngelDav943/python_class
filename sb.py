@@ -1,13 +1,13 @@
+class Carro():
+    def __init__(self) -> None:
+        self.nombre = "Angl"
+        
+    def asd(self):
+        self.saludo = "Hola"
+        
+cs = Carro()
+cs.asd()
+print(cs.saludo)
 
-class Animal():
-    def __init__(self, nombre):
-        self.nombre = nombre
-    
-    def movimiento(self):
-        print(self.nombre, "se esta moviendo.")
-
-class Perro(Animal):
-    pass
-
-perro = Perro("roky")
-perro.movimiento()
+ad = Carro()
+print(ad.saludo)

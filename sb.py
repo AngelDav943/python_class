@@ -1,13 +1,4 @@
-class Carro():
-    def __init__(self) -> None:
-        self.nombre = "Angl"
-        
-    def asd(self):
-        self.saludo = "Hola"
-        
-cs = Carro()
-cs.asd()
-print(cs.saludo)
+lis = ["a","b","c"]
 
-ad = Carro()
-print(ad.saludo)
+pos = 4
+print(pos <= len(lis) and pos > 0)

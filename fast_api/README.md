@@ -14,3 +14,4 @@ from fastapi import FastAPI
 app = FastAPI()
 ````
 - Iniciar servidor uvicorn ````uvicorn entrypoint:app````
+- ````uvicorn entrypoint:app --reload```` para recargar el codigo automaticamente sin necesidad de reiniciar el servidor
